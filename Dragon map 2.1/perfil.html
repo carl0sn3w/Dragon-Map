@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="estilo.css">
+    </head>
+    <body>
+        <div class="div-2">
+            <button id="button-menu" class="button-menu">Menu</button>
+            <div class="Div-pf"></div>
+            <a href="Barra_lateral_simple.html">
+            <img src="logo_v2.png" class="logo">
+            </a> 
+        </div>
+        <div class="barralateral">
+            <ul class="menu-lateral">
+                <li><a href="mapa.html" class="text-2">Mapa</a></li>
+                <li><a href="horario.html" class="text-2">Horario</a></li>
+                <li><a href="ajustes.html" class="text-2">Ajustes</a></li>
+                <li><a href="Polliticaprivacidad.html" class="text-2">Politica y Privacidad</a></li>
+                
+            </ul>
+        </div>
+        <div id="overlay"></div>
+        
+        <div class="imagenperfil"></div>
+        <button class="button-perso" id="btn-personalizar">Personalizar</button>
+
+        <div id="modal-personalizar" class="modal-personalizar">
+            <div class="modal-content">
+                <span class="close-modal" id="close-modal">&times;</span>
+                <h2>Selecciona una imagen de perfil</h2>
+
+                <button type="button" class="btn-imagen-perfil"><img src="imagenes_perfil/fotoperfil (1).jpg" alt="Perfil 1"></button>
+                <button type="button" class="btn-imagen-perfil"><img src="imagenes_perfil/fotoperfil (2).jpg" alt="Perfil 2"></button>
+                <button type="button" class="btn-imagen-perfil"><img src="imagenes_perfil/fotoperfil (3).jpg" alt="Perfil 3"></button>
+                <button type="button" class="btn-imagen-perfil"><img src="imagenes_perfil/fotoperfil (4).jpg" alt="Perfil 4"></button>
+                <button type="button" class="btn-imagen-perfil"><img src="imagenes_perfil/fotoperfil (5).jpg" alt="Perfil 5"></button>
+                <button type="button" class="btn-imagen-perfil"><img src="imagenes_perfil/fotoperfil (6).jpg" alt="Perfil 6"></button>
+
+                <input type="file" id="input-imagen" accept="image/*">
+                <button id="guardar-imagen">Guardar</button>
+                <button id="restablecer-imagen">Restablecer</button>
+            </div>
+        </div>
+
+        <h3 class="texto-usuario">
+           Nombre de usuario:
+        <p>Grado y seccion:</p> 
+        <p>Bachillerato:</p>  
+        </h3>
+
+
+        <script src="codigo.js" defer></script>
+        
+    </body>
+</html>
